@@ -1,0 +1,9 @@
+name: Welcome New User
+on: [pull_request]
+
+jobs:
+  welcome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greatt User
+        run: echo "Hello! Thanks for your first pull request!"
